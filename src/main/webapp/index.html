@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Retrieve Product Details using ID</title>
+<meta charset="ISO-8859-1">
+<title>Product ID</title>
 </head>
 <body>
-<a href="list">Click here to view the table</a><br><br>
-	<form name="loginForm" method="post" action="list">
-    Enter the product id number of the pet you would like to search for:<br> <input type="text" name="search"/> <br/>
-    <input type="submit" value="Submit" />
+<h1>Enter Product Details</h1>
+<hr>
+<formaction="InsertProduct">
+<ul>
+<li>
+<labelfor="name">Product Id:</label><br>
+<inputtype="text"name="pid"id="pid"value=""/>
+</li>
+<li>
+<labelfor="email">Product name</label><br>
+<inputtype="text"name="pname"id="pname"value=""/>
+</li>
+<li>
+<labelfor="comments">Product Price:</label><br>
+<inputid="pprice"name="pprice"cols="25"rows="3"></input>
+</li>
+<li>
+<inputtype="submit"value="submit"/>
+<inputtype="reset"value="reset"/>
+</li>
+</ul>
 </form>
 </body>
 </html>
